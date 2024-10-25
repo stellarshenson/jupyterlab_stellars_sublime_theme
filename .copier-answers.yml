@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.3.5
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: konrad.jelen@gmail.com
+author_name: Konrad Jelen
+has_binder: false
+has_settings: false
+kind: theme
+labextension_name: '@stellars/jupyterlab_sublime_theme'
+project_short_description: Sublime dark theme tweaked by Stellars
+python_name: stellars_jupyterlab_sublime_theme
+repository: ''
+test: false
+
