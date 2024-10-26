@@ -2,7 +2,7 @@
 
 <!-- [![Github Actions Status](/workflows/Build/badge.svg)](/actions/workflows/build.yml) -->
 
-**Dark Gray-blue clone based on Sublime Text Editor**
+**Dark Gray-blue theme based on Sublime Text Editor**
 
 Dark Sublime Text Editor theme clone for jupyterlab based on [Sublime Text Editor](https://www.sublimetext.com).
 This theme has simple, dark gray-blue clean colours and minimal intruision into the standard jupyterlab styling.
