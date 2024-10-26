@@ -1,6 +1,6 @@
 # Stellars Jupyterlab Sublime Theme
 
-[![Github Actions Status](/workflows/Build/badge.svg)](/actions/workflows/build.yml)
+<!-- [![Github Actions Status](/workflows/Build/badge.svg)](/actions/workflows/build.yml) -->
 
 **Dark Gray-blue clone based on Sublime Text Editor**
 
@@ -10,7 +10,7 @@ Base theme on which this one was built is the original [Jupyterlab Darcula theme
 
 Project is based on the latest [jupyterlab extension template](https://github.com/jupyterlab/extension-template) and built with with copier.
 
-![](screenshot-stellars-sublime.png)
+![](https://github.com/stellarshenson/jupyterlab_stellars_sublime_theme/blob/master/screenshot-stellars-sublime.png?raw=true)
 ## Requirements
 
 - JupyterLab >= 4.0.0

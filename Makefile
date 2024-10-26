@@ -11,3 +11,7 @@ clean: uninstall
 
 uninstall:
 	pip uninstall -y dist/*.whl || true
+
+publish: clean
+	python -m build
+	twine upload dist/*
