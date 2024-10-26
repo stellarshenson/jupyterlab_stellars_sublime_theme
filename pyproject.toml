@@ -5,10 +5,6 @@ build-backend = "hatchling.build"
 [project]
 name = "stellars_jupyterlab_sublime_theme"
 readme = "README.md"
-description="Sublime dark theme based on Darcula, tweaked by Stellars"
-authors = [
-    {name = "Konrad Jelen <konrad.jelen@gmail.com>"},
-]
 license = { file = "LICENSE" }
 requires-python = ">=3.8"
 classifiers = [
