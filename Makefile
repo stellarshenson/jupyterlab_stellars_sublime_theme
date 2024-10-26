@@ -1,11 +1,13 @@
 all:
 	python -m build --wheel
-	pip install dist/*.whl
 
-clean:
+install: all
+	pip install dist/*.whl --force-reinstall
+
+clean: uninstall
 	npm run clean
 	npm run clean:labextension
 	rm -rf dist lib 
 
 uninstall:
-	pip uninstall dist/*.whl
+	pip uninstall -y dist/*.whl || true

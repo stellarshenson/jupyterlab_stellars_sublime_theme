@@ -19,6 +19,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
 
     manager.register({
       name: 'Stellars Sublime Theme',
+      themeScrollbars: true,
       isLight: false,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)
