@@ -9,7 +9,6 @@ description="Sublime dark theme based on Darcula, tweaked by Stellars"
 authors = [
     {name = "Konrad Jelen <konrad.jelen@gmail.com>"},
 ]
-license = {text = ""}
 license = { file = "LICENSE" }
 requires-python = ">=3.8"
 classifiers = [
