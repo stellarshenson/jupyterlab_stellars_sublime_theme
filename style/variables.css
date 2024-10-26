@@ -254,11 +254,10 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-accent-color3: var(--md-green-100);
 
   /* State colors (warn, error, success, info) */
-
   --jp-warn-color0: var(--md-orange-700);
   --jp-warn-color1: var(--md-orange-500);
   --jp-warn-color2: var(--md-orange-300);
-  --jp-warn-color3: var(--md-orange-100);
+  --jp-warn-color3: var(--md-orange-100); 
 
   --jp-error-color0: var(--md-red-700);
   --jp-error-color1: var(--md-red-500);
@@ -438,10 +437,10 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-mirror-editor-header-color: var(--md-blue-500);
   --jp-mirror-editor-quote-color: var(--md-green-300);
 
-  --jp-mirror-editor-link-color: #cc7832;
+  /* --jp-mirror-editor-link-color: #cc7832; CUSTOM */
+  --jp-mirror-editor-link-color: #cc78FF;
   --jp-mirror-editor-error-color: #bc3f3c;
-
-  --jp-mirror-editor-hr-color: #999;
+  --jp-mirror-editor-hr-color: #999; 
 
   /* Vega extension styles */
 
