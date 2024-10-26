@@ -1,9 +1,16 @@
-# stellars_jupyterlab_sublime_theme
+# Stellars Jupyterlab Sublime Theme
 
 [![Github Actions Status](/workflows/Build/badge.svg)](/actions/workflows/build.yml)
 
-Sublime dark theme tweaked by Stellars
+**Dark Gray-blue clone based on Sublime Text Editor**
 
+Dark Sublime Text Editor theme clone for jupyterlab based on [Sublime Text Editor](https://www.sublimetext.com).
+This theme has simple, dark gray-blue clean colours and minimal intruision into the standard jupyterlab styling.
+Base theme on which this one was built is the original [Jupyterlab Darcula theme](https://github.com/telamonian/theme-darcula)
+
+Project is based on the latest [jupyterlab extension template](https://github.com/jupyterlab/extension-template) and built with with copier.
+
+![](screenshot-stellars-sublime.png)
 ## Requirements
 
 - JupyterLab >= 4.0.0
