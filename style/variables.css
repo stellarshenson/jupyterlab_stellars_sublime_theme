@@ -175,7 +175,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* Shades of the default font color */
   --jp-content-font-color0: rgba(187, 187, 187, 1);
-  --jp-content-font-color1: rgba(215, 215, 215, 1); /* stellars customisation from (187,187...) */
+  --jp-content-font-color1: rgba(210, 210, 210, 1); /* code, stellars customisation from (187,187...) */
   --jp-content-font-color2: rgba(187, 187, 187, 0.7);
   --jp-content-font-color3: rgba(187, 187, 187, 0.5);
 
@@ -362,13 +362,13 @@ all of MD as it is not optimized for dense, information rich UIs.
   /* Sublime Dark Theme (Mariana) inspired CodeMirror specific styles */
   --jp-mirror-editor-keyword-color: #c695c6;       /* pink */
   --jp-mirror-editor-atom-color: #5FB3B3;          /* blue5 */
-  --jp-mirror-editor-number-color: #f9ae57;        /* bright orange */
+  --jp-mirror-editor-number-color: #E06C75;        /* sublime uses bright orange #f9ae57, we use red #E06C75 */
   --jp-mirror-editor-def-color: #59b4b4;           /* blue */
   --jp-mirror-editor-variable-color: #ec5550;      /* text_fg color D8DEE9, sublime uses ec5550 for 'self' and others */
   --jp-mirror-editor-variable-2-color: #88C0D0;    /* blue5 */
   --jp-mirror-editor-variable-3-color: #81A1C1;    /* blue-vibrant */
   --jp-mirror-editor-punctuation-color: #D8DEE9;   /* matches text_fg color */
-  --jp-mirror-editor-property-color: #f9a04e;      /* blue from button_bg 66b6f7, sublime uses f9a04e */
+  --jp-mirror-editor-property-color: #e8a76c;      /* blue from button_bg 66b6f7, sublime uses f9a04e, we use less contrastive #e8a76c */
   --jp-mirror-editor-operator-color: #E06C75;      /* red2 */
   --jp-mirror-editor-comment-color: #707c88;       /* blue6 was a6acb9*/
   --jp-mirror-editor-string-color: #A3BE8C;        /* green */
