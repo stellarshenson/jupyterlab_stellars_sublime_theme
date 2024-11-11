@@ -10,7 +10,7 @@ import { IThemeManager } from '@jupyterlab/apputils';
  */
 const plugin: JupyterFrontEndPlugin<void> = {
   id: '@stellars/jupyterlab_sublime_theme:plugin',
-  description: 'Sublime dark theme based on Darcula, tweaked by Stellars',
+  description: 'Dark theme based on Sublime text editor default dark theme, tweaked by Stellars',
   autoStart: true,
   requires: [IThemeManager],
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
