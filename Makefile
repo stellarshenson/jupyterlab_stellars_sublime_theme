@@ -10,7 +10,7 @@ clean: uninstall
 	rm -rf dist lib 
 
 uninstall:
-	pip uninstall -y dist/*.whl || true
+	pip uninstall -y dist/*.whl 2>/dev/null || true
 
 publish: clean
 	python -m build
