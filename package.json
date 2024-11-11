@@ -1,6 +1,6 @@
 {
     "name": "@stellars/jupyterlab_sublime_theme",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "description": "Sublime dark theme based on Darcula, tweaked by Stellars",
     "keywords": [
         "jupyter",
