@@ -14,19 +14,7 @@ Project is based on the latest [jupyterlab extension template](https://github.co
 
 ## Theme Colors
 
-Sublime dark theme is based upon a popular __Monokai__ theme with the following colors:
-
-Background: #272822 (a dark olive tone)
-Foreground (text): #F8F8F2 (light grayish white)
-Comments: #75715E (a muted greenish-gray)
-Keywords: #F92672 (bright pink)
-Functions: #A6E22E (light green)
-Strings: #E6DB74 (pale yellow)
-Numbers: #AE81FF (light purple)
-Built-in constants: #66D9EF (bright cyan)
-Operators and punctuation: #F8F8F2 (matches the main foreground color)
-
-Those colors will be reflected in the jupyterlab-stellars-sublime theme when ready
+Sublime dark theme is based upon a popular __Mariana__ theme (default dark theme of Sublime) with some modifications to not make the colors overly contrastive:
 
 ## Requirements
 
