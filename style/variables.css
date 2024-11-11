@@ -305,7 +305,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   /* Notebook specific styles */
 
   --jp-notebook-padding: 10px;
-  --jp-notebook-select-background: var(--jp-layout-color1);
+  --jp-notebook-select-background: var(--md-green-700); /* CUSTOM was --jp-layout-color1 */
   --jp-notebook-multiselected-color: rgba(33, 150, 243, 0.24);
 
   /* The scroll padding is calculated to fill enough space at the bottom of the
@@ -341,6 +341,9 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-toolbar-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.8);
   --jp-toolbar-header-margin: 4px 4px 0px 4px;
   --jp-toolbar-active-background: var(--jp-layout-color0);
+
+  --jp-accept-color-hover: var(--jp-brand-color0); /* added as of JL4.3, hover color for + button */
+
 
   /* Statusbar specific styles */
 
@@ -437,7 +440,6 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-mirror-editor-header-color: var(--md-blue-500);
   --jp-mirror-editor-quote-color: var(--md-green-300);
 
-  /* --jp-mirror-editor-link-color: #cc7832; CUSTOM */
   --jp-mirror-editor-link-color: #cc78FF;
   --jp-mirror-editor-error-color: #bc3f3c;
   --jp-mirror-editor-hr-color: #999; 
