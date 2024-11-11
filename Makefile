@@ -15,3 +15,7 @@ uninstall:
 publish: clean
 	python -m build
 	twine upload dist/*
+
+dependencies:
+	conda install -y nodejs
+	pip install twine
