@@ -337,6 +337,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   --jp-accept-color-hover: var(--jp-brand-color0); /* stellars customisation, added as of JL4.3, hover color for + button */
   --jp-switch-color: var(--jp-layout-color4); /* stellars customisation, modified to use layout colors */
+  --jp-switch-true-position-color: var(--jp-brand-color1); /* stellars customisation, was --jp-warn-color0 */
 
   /* Statusbar specific styles */
 
