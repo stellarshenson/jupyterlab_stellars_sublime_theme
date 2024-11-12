@@ -1,0 +1,49 @@
+/*-----------------------------------------------------------------------------
+| Copyright (c) Max Klein.
+| Distributed under the terms of the Modified BSD License.
+|----------------------------------------------------------------------------*/
+
+/*
+ * Codemirror styling that isn't currently supported by Jupyterlab themes
+ */
+
+/* text rendered in stderr with keyword highlight
+fix: annoying problem of almost invisible text in stderr */
+.jp-RenderedText pre .ansi-yellow-bg {
+    background-color: #b52318;
+}
+
+.cm-s-jupyter .CodeMirror-activeline-background {
+  background: #323232;
+}
+.cm-s-jupyter .CodeMirror-guttermarker {
+  color: #ffee80;
+}
+.cm-s-jupyter .CodeMirror-guttermarker-subtle {
+  color: #d0d0d0;
+}
+.cm-s-jupyter .CodeMirror-linenumber {
+  color: #606366;
+}
+.cm-s-jupyter .CodeMirror-matchingbracket {
+  background-color: #3b514d;
+  color: #ffef28 !important;
+  font-weight: bold;
+}
+
+.cm-s-jupyter div.CodeMirror-selected {
+  background: #214283;
+}
+
+.cm-s-jupyter span.cm-type {
+  color: #aabbcc;
+  font-weight: bold;
+}
+
+/* other styling rules */
+.jp-DirListing-header {
+    border-top: var(--jp-border-width) solid var(--jp-border-color1);
+    border-bottom: 2px solid var(--jp-border-color1);
+    z-index: 0;
+}
+
