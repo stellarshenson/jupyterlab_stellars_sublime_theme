@@ -218,8 +218,8 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-layout-color1: #303841; /* panel and toolbar */
   --jp-layout-color2: #404b54; /*var(--md-grey-800); border of the screen and line numbers gutter 46525c */
   --jp-layout-color3: #4d5a65; /*var(--md-grey-700); */
-  --jp-layout-color4: #626465; /*var(--md-grey-600); */
-  --jp-layout-color5: #a9b7c6;
+  --jp-layout-color4: #5d6d7a; /*var(--md-grey-600); */
+  --jp-layout-color5: #768591;
     
   /* Inverse Layout
    *
@@ -335,8 +335,8 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-toolbar-header-margin: 4px 4px 0px 4px;
   --jp-toolbar-active-background: var(--jp-layout-color0);
 
-  --jp-accept-color-hover: var(--jp-brand-color0); /* added as of JL4.3, hover color for + button */
-
+  --jp-accept-color-hover: var(--jp-brand-color0); /* stellars customisation, added as of JL4.3, hover color for + button */
+  --jp-switch-color: var(--jp-layout-color4); /* stellars customisation, modified to use layout colors */
 
   /* Statusbar specific styles */
 
