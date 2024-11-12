@@ -50,4 +50,6 @@ fix: annoying problem of almost invisible text in stderr */
 /* execution time extension styling enhancement */
 .execute-time {
     padding: 3px 3px 3px 3px;
+    margin: 0px 0px 0px 0px;
+    background: var(--jp-layout-color2);
 }
