@@ -382,7 +382,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-mirror-editor-punctuation-color: #D8DEE9;   /* matches text_fg color */
   --jp-mirror-editor-property-color: #36a0f4;      /* blue from button_bg 66b6f7, sublime uses ;f9a04e, we use less contrastive #e8a76c but switched to blue #36a0f4; */
   --jp-mirror-editor-operator-color: #E06C75;      /* red2 */
-  --jp-mirror-editor-comment-color: #707c88;       /* blue6 was a6acb9*/
+  --jp-mirror-editor-comment-color: #7d8c9b;       /* blue6 was a6acb9 changed to #707c88; and then to #7d8c9b*/
   --jp-mirror-editor-string-color: #82ac5e;        /* green using #82ac5e, sublime promotes lighter #A3BE8C */
   --jp-mirror-editor-string-2-color: #82ac5e;      /* additional strings */
   --jp-mirror-editor-meta-color: #81A1C1;          /* link_fg for meta */
