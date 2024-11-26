@@ -380,14 +380,14 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-mirror-editor-variable-2-color: #88C0D0;    /* blue5 */
   --jp-mirror-editor-variable-3-color: #81A1C1;    /* blue-vibrant */
   --jp-mirror-editor-punctuation-color: #D8DEE9;   /* matches text_fg color */
-  --jp-mirror-editor-property-color: #e8a76c;      /* blue from button_bg 66b6f7, sublime uses f9a04e, we use less contrastive #e8a76c */
+  --jp-mirror-editor-property-color: #36a0f4;      /* blue from button_bg 66b6f7, sublime uses ;f9a04e, we use less contrastive #e8a76c but switched to blue #36a0f4; */
   --jp-mirror-editor-operator-color: #E06C75;      /* red2 */
   --jp-mirror-editor-comment-color: #707c88;       /* blue6 was a6acb9*/
   --jp-mirror-editor-string-color: #82ac5e;        /* green using #82ac5e, sublime promotes lighter #A3BE8C */
   --jp-mirror-editor-string-2-color: #82ac5e;      /* additional strings */
   --jp-mirror-editor-meta-color: #81A1C1;          /* link_fg for meta */
   --jp-mirror-editor-qualifier-color: #88C0D0;     /* blue button_bg */
-  --jp-mirror-editor-builtin-color: #6699cc;       /* orange D4843D, sublime uses blue 6699cc */
+  --jp-mirror-editor-builtin-color: #f8837b;       /* orange D4843D, sublime uses blue 6699cc, switched to orange #f8837b */
   --jp-mirror-editor-bracket-color: #D8DEE9;       /* text_fg color */
   --jp-mirror-editor-tag-color: #c695c6;           /* pink */
   --jp-mirror-editor-attribute-color: #c695c6;     /* pink for attributes */
