@@ -53,3 +53,9 @@ fix: annoying problem of almost invisible text in stderr */
     margin: 0px 0px 0px 0px;
     background: var(--jp-layout-color2);
 }
+
+/* + button on the tab bar */
+.lm-TabBar .lm-TabBar-addButton {
+    background-color: var(--jp-layout-color0);
+}
+
