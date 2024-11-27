@@ -55,8 +55,12 @@ fix: annoying problem of almost invisible text in stderr */
     border-top: 0px solid var(--jp-cell-editor-border-color);
 }
 
-/* + button on the tab bar */
+/* add-tab button on the tab bar */
 .lm-TabBar .lm-TabBar-addButton {
-    background-color: var(--jp-layout-color0);
+    padding-bottom: 5px; /* make height the same as tabs */
 }
 
+/* editor tabs - make light border around tabs */
+.lm-DockPanel-tabBar .lm-TabBar-tab, .lm-TabPanel-tabBar .lm-TabBar-tab {
+    border: var(--jp-border-width) solid var(--jp-border-color0);
+}
