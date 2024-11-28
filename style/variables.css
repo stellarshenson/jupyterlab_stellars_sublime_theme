@@ -372,7 +372,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 
 
   /* Sublime Dark Theme (Mariana) inspired CodeMirror specific styles */
-  --jp-mirror-editor-keyword-color: #c695c6;       /* pink */
+  --jp-mirror-editor-keyword-color: #ba72ba;       /* pink pale pink*/
   --jp-mirror-editor-atom-color: #5FB3B3;          /* blue5 */
   --jp-mirror-editor-number-color: #E06C75;        /* sublime uses bright orange #f9ae57, we use red #E06C75 */
   --jp-mirror-editor-def-color: #59b4b4;           /* blue */
@@ -387,7 +387,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-mirror-editor-string-2-color: #678e45;      /* additional strings */
   --jp-mirror-editor-meta-color: #81A1C1;          /* link_fg for meta */
   --jp-mirror-editor-qualifier-color: #88C0D0;     /* blue button_bg */
-  --jp-mirror-editor-builtin-color: #ba72ba;       /* using sublime pale pink #f8837b; switched to more saturated #ba72ba; */
+  --jp-mirror-editor-builtin-color: #f8837b;       /* using sublime pale pink #f8837b; switched to more saturated #ba72ba; */
   --jp-mirror-editor-bracket-color: #D8DEE9;       /* text_fg color */
   --jp-mirror-editor-tag-color: #c695c6;           /* pink */
   --jp-mirror-editor-attribute-color: #c695c6;     /* pink for attributes */

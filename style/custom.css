@@ -49,7 +49,7 @@ fix: annoying problem of almost invisible text in stderr */
 
 /* override - execution time extension styling enhancement */
 .execute-time {
-    padding: 1px 1px 1px 3px; /* makes text in execute time padded from left but otherwise small */
+    padding: 2px 1px 1px 3px; /* makes text in execute time padded from left but otherwise small */
     /* margin: 1px 1px 1px 1px;  makes border around execute time thicker */
     background: var(--jp-layout-color0);
     border-top: 0px solid var(--jp-cell-editor-border-color);
