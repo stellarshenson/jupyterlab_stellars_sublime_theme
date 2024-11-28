@@ -387,7 +387,7 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-mirror-editor-string-2-color: #678e45;      /* additional strings */
   --jp-mirror-editor-meta-color: #81A1C1;          /* link_fg for meta */
   --jp-mirror-editor-qualifier-color: #88C0D0;     /* blue button_bg */
-  --jp-mirror-editor-builtin-color: #f8837b;       /* orange D4843D, sublime uses blue 6699cc, switched to orange #f8837b */
+  --jp-mirror-editor-builtin-color: #ba72ba;       /* using sublime pale pink #f8837b; switched to more saturated #ba72ba; */
   --jp-mirror-editor-bracket-color: #D8DEE9;       /* text_fg color */
   --jp-mirror-editor-tag-color: #c695c6;           /* pink */
   --jp-mirror-editor-attribute-color: #c695c6;     /* pink for attributes */

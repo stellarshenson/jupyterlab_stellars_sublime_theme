@@ -40,14 +40,14 @@ fix: annoying problem of almost invisible text in stderr */
   font-weight: bold;
 }
 
-/* other styling rules */
+/* override - improve borders of the dir listing */
 .jp-DirListing-header {
     border-top: var(--jp-border-width) solid var(--jp-border-color1);
     border-bottom: 2px solid var(--jp-border-color1);
     z-index: 0;
 }
 
-/* execution time extension styling enhancement */
+/* override - execution time extension styling enhancement */
 .execute-time {
     padding: 1px 1px 1px 3px; /* makes text in execute time padded from left but otherwise small */
     /* margin: 1px 1px 1px 1px;  makes border around execute time thicker */
@@ -55,12 +55,23 @@ fix: annoying problem of almost invisible text in stderr */
     border-top: 0px solid var(--jp-cell-editor-border-color);
 }
 
-/* add-tab button on the tab bar */
+/* override - add-tab button on the tab bar */
 .lm-TabBar .lm-TabBar-addButton {
     padding-bottom: 5px; /* make height the same as tabs */
 }
 
-/* editor tabs - make light border around tabs */
+/* override - editor tabs - make light border around tabs */
 .lm-DockPanel-tabBar .lm-TabBar-tab, .lm-TabPanel-tabBar .lm-TabBar-tab {
     border: var(--jp-border-width) solid var(--jp-border-color0);
+     border-bottom: 0px;   /* removed bottom border */
+}
+
+/* override - remove border from markdown selected output cell */
+.jp-MarkdownOutput {
+    border-width: 0px;
+}
+
+/* override - turn border off of the cell input area */
+.jp-InputArea-editor {
+    border: none;
 }
