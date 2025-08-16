@@ -1,7 +1,7 @@
-all: clean
+build: clean
 	python -m build 
 
-install: all
+install: build
 	pip install dist/*.whl --force-reinstall
 
 clean: uninstall
@@ -17,4 +17,5 @@ publish: install
 
 dependencies:
 	conda install -y nodejs yarn
+	conda update -y nodejs yarn
 	pip install twine

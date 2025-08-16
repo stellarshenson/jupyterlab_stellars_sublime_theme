@@ -75,3 +75,9 @@ fix: annoying problem of almost invisible text in stderr */
 .jp-InputArea-editor {
     border: none;
 }
+
+/* override - settings restore button */
+.jp-SettingsHeader-buttonbar > .jp-RestoreButton {
+    color: var(--jp-content-link-color);
+}
+
