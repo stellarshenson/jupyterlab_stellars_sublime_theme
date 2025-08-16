@@ -19,3 +19,7 @@ dependencies:
 	conda install -y nodejs yarn
 	conda update -y nodejs yarn
 	pip install twine
+
+mrproper: clean
+	rm -rf node_modules .yarn || true
+
