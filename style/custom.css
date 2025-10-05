@@ -81,3 +81,21 @@ fix: annoying problem of almost invisible text in stderr */
     color: var(--jp-content-link-color);
 }
 
+/* override - output area scrolling fixes - related to output area 
+ * showing unexpected and unwanted scrollbar */
+.jp-OutputArea-child,
+.jp-OutputArea-output,
+.jp-Cell-outputArea,
+.jp-OutputArea-output.jp-OutputArea-executeResult {
+    max-height: none !important;
+    overflow: visible !important;
+}
+
+.jp-Cell.jp-mod-outputsScrolled .jp-Cell-outputArea {
+    max-height: none !important;
+}
+
+.jp-OutputArea {
+    overflow: visible !important;
+}
+
