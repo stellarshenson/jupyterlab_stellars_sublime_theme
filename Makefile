@@ -1,8 +1,8 @@
 .PHONY: build install clean uninstall publish dependencies mrproper increment_version install_dependencies help
 .DEFAULT_GOAL := help
 
-# Read current version from package.json
-VERSION := $(shell node -p "require('./package.json').version")
+# Read current version from package.json (only if node is available)
+VERSION := $(shell command -v node >/dev/null 2>&1 && node -p "require('./package.json').version" || echo "0.0.0")
 
 ## increment project version
 increment_version:
@@ -27,8 +27,8 @@ install: build
 
 ## clean builds and installables
 clean: uninstall
-	npm run clean || true
-	npm run clean:labextension || true
+	@command -v npm >/dev/null 2>&1 && npm run clean || true
+	@command -v npm >/dev/null 2>&1 && npm run clean:labextension || true
 	rm -rf dist lib || true
 
 ## uninstall package
