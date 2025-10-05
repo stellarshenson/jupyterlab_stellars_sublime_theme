@@ -1,7 +1,7 @@
 # Stellars Jupyterlab Sublime Theme
 
 <!-- [![Github Actions Status](/workflows/Build/badge.svg)](/actions/workflows/build.yml) -->
-[![PyPI version](https://badge.fury.io/py/jupyterlab_stellars_sublime_theme.svg)](https://badge.fury.io/py/jupyterlab_stellars_sublime_theme)
+[![PyPI version](https://badge.fury.io/py/stellars-jupyterlab-sublime-theme.svg)](https://badge.fury.io/py/stellars-jupyterlab-sublime-theme)
 
 
 **Dark Gray-blue theme based on Sublime Text Editor**
