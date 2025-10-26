@@ -12,3 +12,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 3. **Task - Rebuild and Republish Extension**: Fixed build inconsistencies and published version 1.0.56<br>
     **Result**: Cleaned build artifacts, rebuilt extension with make install, and published version 1.0.56 to both npm (@stellarshenson/jupyterlab_sublime_theme@1.0.56) and PyPI (stellars-jupyterlab-sublime-theme@1.0.56). Fixed version consistency issues in labextension build.
+
+4. **Task - Unify Package Names**: Changed npm package name to match PyPI naming convention and published version 1.0.57<br>
+    **Result**: Changed npm package from @stellarshenson/jupyterlab_sublime_theme to stellars-jupyterlab-sublime-theme (unscoped, hyphenated) to match PyPI package naming. Published version 1.0.57 to both npm (stellars-jupyterlab-sublime-theme@1.0.57) and PyPI (stellars-jupyterlab-sublime-theme@1.0.57). This fixes compatibility issues with existing installations.
