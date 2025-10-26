@@ -1,6 +1,7 @@
 # Stellars Jupyterlab Sublime Theme
 
-<!-- [![Github Actions Status](/workflows/Build/badge.svg)](/actions/workflows/build.yml) -->
+![GitHub Actions](https://github.com/stellarshenson/jupyterlab_stellars_sublime_theme/actions/workflows/build.yml/badge.svg)
+[![npm version](https://badge.fury.io/js/@stellarshenson%2Fjupyterlab_sublime_theme.svg)](https://www.npmjs.com/package/@stellarshenson/jupyterlab_sublime_theme)
 [![PyPI version](https://badge.fury.io/py/stellars-jupyterlab-sublime-theme.svg)](https://badge.fury.io/py/stellars-jupyterlab-sublime-theme)
 
 

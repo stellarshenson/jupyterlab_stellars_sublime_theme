@@ -12,8 +12,7 @@ increment_version:
 	NEW_PATCH=$$((patch + 1)); \
 	NEW_VERSION="$$major.$$minor.$$NEW_PATCH"; \
 	echo "New version: $$NEW_VERSION"; \
-	sed -i "s/\"version\": \"$$CURRENT_VERSION\"/\"version\": \"$$NEW_VERSION\"/" package.json; \
-	echo "Version bumped to $$NEW_VERSION"'
+	sed -i "s/\"version\": \"$$CURRENT_VERSION\"/\"version\": \"$$NEW_VERSION\"/" package.json; '
 
 ## build packages
 build: clean increment_version
@@ -23,7 +22,7 @@ build: clean increment_version
 
 ## install package
 install: build
-	pip install dist/*.whl --force-reinstall --no-dependencies
+	pip install dist/*.whl --force-reinstall
 
 ## clean builds and installables
 clean: uninstall
@@ -37,6 +36,7 @@ uninstall:
 
 ## publish package to public repository
 publish: install
+	npm publish --access public
 	twine upload dist/*
 
 ## install all required build dependencies
