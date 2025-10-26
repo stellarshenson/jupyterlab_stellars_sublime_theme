@@ -1,7 +1,7 @@
 # Stellars Jupyterlab Sublime Theme
 
 ![GitHub Actions](https://github.com/stellarshenson/jupyterlab_stellars_sublime_theme/actions/workflows/build.yml/badge.svg)
-[![npm version](https://badge.fury.io/js/@stellars%2Fjupyterlab_sublime_theme.svg)](https://www.npmjs.com/package/@stellars/jupyterlab_sublime_theme)
+[![npm version](https://badge.fury.io/js/stellars_jupyterlab_sublime_theme.svg)](https://www.npmjs.com/package/stellars_jupyterlab_sublime_theme)
 [![PyPI version](https://badge.fury.io/py/stellars-jupyterlab-sublime-theme.svg)](https://badge.fury.io/py/stellars-jupyterlab-sublime-theme)
 ![PyPI downloads](https://img.shields.io/pypi/dm/stellars-jupyterlab-sublime-theme?label=PyPI%20downloads)
 
@@ -101,7 +101,7 @@ pip uninstall stellars_jupyterlab_sublime_theme
 
 In development mode, you will also need to remove the symlink created by `jupyter labextension develop`
 command. To find its location, you can run `jupyter labextension list` to figure out where the `labextensions`
-folder is located. Then you can remove the symlink named `@stellars/jupyterlab_sublime_theme` within that folder.
+folder is located. Then you can remove the symlink named `stellars_jupyterlab_sublime_theme` within that folder.
 
 ### Packaging the extension
 

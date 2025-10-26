@@ -15,6 +15,6 @@ JupyterLab theme extension providing a dark Sublime Text-inspired color scheme.
 
 ## Package Publishing
 
-- npm scope: `@stellarshenson`
+- npm package: `stellars_jupyterlab_sublime_theme`
 - PyPI package: `stellars-jupyterlab-sublime-theme`
 - Use `make publish` to build and publish to both registries

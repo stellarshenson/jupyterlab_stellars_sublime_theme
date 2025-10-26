@@ -12,5 +12,5 @@ except ImportError:
 def _jupyter_labextension_paths():
     return [{
         "src": "labextension",
-        "dest": "@stellars/jupyterlab_sublime_theme"
+        "dest": "stellars_jupyterlab_sublime_theme"
     }]

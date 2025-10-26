@@ -37,8 +37,8 @@ artifacts = ["stellars_jupyterlab_sublime_theme/labextension"]
 exclude = [".github", "binder"]
 
 [tool.hatch.build.targets.wheel.shared-data]
-"stellars_jupyterlab_sublime_theme/labextension" = "share/jupyter/labextensions/@stellars/jupyterlab_sublime_theme"
-"install.json" = "share/jupyter/labextensions/@stellars/jupyterlab_sublime_theme/install.json"
+"stellars_jupyterlab_sublime_theme/labextension" = "share/jupyter/labextensions/stellars_jupyterlab_sublime_theme"
+"install.json" = "share/jupyter/labextensions/stellars_jupyterlab_sublime_theme/install.json"
 
 [tool.hatch.build.hooks.version]
 path = "stellars_jupyterlab_sublime_theme/_version.py"
