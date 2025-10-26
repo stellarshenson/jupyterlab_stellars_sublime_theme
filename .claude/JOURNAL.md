@@ -9,3 +9,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 2. **Task - Add PyPI Downloads Badge**: Added PyPI downloads badge to README.md and published version 1.0.54<br>
     **Result**: Added PyPI downloads badge (https://img.shields.io/pypi/dm/stellars-jupyterlab-sublime-theme) to README.md. Published version 1.0.54 to both npm (@stellarshenson/jupyterlab_sublime_theme@1.0.54) and PyPI (stellars-jupyterlab-sublime-theme@1.0.54).
+
+3. **Task - Rebuild and Republish Extension**: Fixed build inconsistencies and published version 1.0.56<br>
+    **Result**: Cleaned build artifacts, rebuilt extension with make install, and published version 1.0.56 to both npm (@stellarshenson/jupyterlab_sublime_theme@1.0.56) and PyPI (stellars-jupyterlab-sublime-theme@1.0.56). Fixed version consistency issues in labextension build.
