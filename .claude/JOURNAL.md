@@ -15,3 +15,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 4. **Task - Unify Package Names**: Changed npm package name to match PyPI naming convention and published version 1.0.57<br>
     **Result**: Changed npm package from @stellarshenson/jupyterlab_sublime_theme to stellars-jupyterlab-sublime-theme (unscoped, hyphenated) to match PyPI package naming. Published version 1.0.57 to both npm (stellars-jupyterlab-sublime-theme@1.0.57) and PyPI (stellars-jupyterlab-sublime-theme@1.0.57). This fixes compatibility issues with existing installations.
+
+5. **Task - Revert to Original Package Scope**: Reverted npm package name to original @stellars scope and published version 1.0.65<br>
+    **Result**: After identifying breaking change (npm scope change from @stellars to @stellarshenson in v1.0.52 caused theme to disappear from JupyterHub), reverted package.json name to @stellars/jupyterlab_sublime_theme. Updated README badges to reflect original scope. Published version 1.0.65 to PyPI (stellars-jupyterlab-sublime-theme@1.0.65). Npm publish to @stellars scope not available (404 error - scope doesn't exist or no permission). Theme now works correctly on existing JupyterHub installations.
