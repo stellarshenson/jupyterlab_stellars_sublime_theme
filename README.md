@@ -3,7 +3,7 @@
 ![GitHub Actions](https://github.com/stellarshenson/jupyterlab_stellars_sublime_theme/actions/workflows/build.yml/badge.svg)
 [![npm version](https://badge.fury.io/js/stellars_jupyterlab_sublime_theme.svg)](https://www.npmjs.com/package/stellars_jupyterlab_sublime_theme)
 [![PyPI version](https://badge.fury.io/py/stellars-jupyterlab-sublime-theme.svg)](https://badge.fury.io/py/stellars-jupyterlab-sublime-theme)
-![PyPI downloads](https://img.shields.io/pypi/dm/stellars-jupyterlab-sublime-theme?label=PyPI%20downloads)
+[![Total PyPI downloads](https://static.pepy.tech/badge/stellars-jupyterlab-sublime-theme)](https://pepy.tech/project/stellars-jupyterlab-sublime-theme)
 ![JL4 Ready](https://img.shields.io/badge/Jupyterlab%204-ready-blue)
 
 
