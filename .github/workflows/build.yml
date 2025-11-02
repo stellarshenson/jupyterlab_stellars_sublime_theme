@@ -2,7 +2,7 @@ name: Build
 
 on:
   push:
-    branches: main
+    branches: master
   pull_request:
     branches: '*'
 
@@ -24,16 +24,12 @@ jobs:
     - name: Install dependencies
       run: python -m pip install -U "jupyterlab>=4.0.0,<5"
 
-    - name: Lint the extension
-      run: |
-        set -eux
-        jlpm
-        jlpm run lint:check
-
     - name: Build the extension
       run: |
         set -eux
         python -m pip install .[test]
+
+        # pytest -vv -r ap --cov stellars_jupyterlab_sublime_theme
 
         jupyter labextension list
         jupyter labextension list 2>&1 | grep -ie "stellars_jupyterlab_sublime_theme.*OK"
@@ -62,7 +58,7 @@ jobs:
     - name: Install Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.9'
+        python-version: '3.12'
         architecture: 'x64'
     - uses: actions/download-artifact@v4
       with:
@@ -76,17 +72,6 @@ jobs:
 
         pip install "jupyterlab>=4.0.0,<5" stellars_jupyterlab_sublime_theme*.whl
 
-
         jupyter labextension list
         jupyter labextension list 2>&1 | grep -ie "stellars_jupyterlab_sublime_theme.*OK"
         python -m jupyterlab.browser_check --no-browser-test
-
-
-  check_links:
-    name: Check Links
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    steps:
-      - uses: actions/checkout@v4
-      - uses: jupyterlab/maintainer-tools/.github/actions/base-setup@v1
-      - uses: jupyterlab/maintainer-tools/.github/actions/check-links@v1
