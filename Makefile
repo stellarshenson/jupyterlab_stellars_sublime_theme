@@ -1,4 +1,8 @@
-.PHONY: build install clean uninstall publish dependencies mrproper increment_version install_dependencies help
+# Makefile for Jupyterlab extensions version 1.25
+# author: Stellars Henson <konrad.jelen@gmail.com
+# License: MIT Open Source License
+
+.PHONY: build install clean uninstall publish dependencies mrproper increment_version install_dependencies check_dependencies upgrade help
 .DEFAULT_GOAL := help
 
 # Read current version from package.json (only if node is available)
@@ -15,27 +19,43 @@ increment_version:
 	sed -i "s/\"version\": \"$$CURRENT_VERSION\"/\"version\": \"$$NEW_VERSION\"/" package.json; '
 
 ## build packages
-build: clean increment_version
+build: clean increment_version check_dependencies
 	npm install
 	yarn install
 	python -m build 
 
 ## install package
-install: build
+install: build 
 	pip install dist/*.whl --force-reinstall
 
 ## clean builds and installables
-clean: uninstall
+clean: uninstall  check_dependencies
 	@command -v npm >/dev/null 2>&1 && npm run clean || true
 	@command -v npm >/dev/null 2>&1 && npm run clean:labextension || true
 	rm -rf dist lib || true
 
 ## uninstall package
-uninstall:
+uninstall:  check_dependencies
 	pip uninstall -y dist/*.whl 2>/dev/null || true
 
+## check if required dependencies are installed
+check_dependencies:
+	@echo "Checking dependencies..."
+	@MISSING=""; \
+	command -v node >/dev/null 2>&1 || MISSING="$$MISSING node"; \
+	command -v npm >/dev/null 2>&1 || MISSING="$$MISSING npm"; \
+	command -v yarn >/dev/null 2>&1 || MISSING="$$MISSING yarn"; \
+	command -v twine >/dev/null 2>&1 || MISSING="$$MISSING twine"; \
+	if [ -n "$$MISSING" ]; then \
+		echo "Missing dependencies:$$MISSING"; \
+		echo "Installing missing dependencies..."; \
+		$(MAKE) install_dependencies; \
+	else \
+		echo "All dependencies are installed."; \
+	fi
+
 ## publish package to public repository
-publish: install
+publish: check_dependencies install
 	npm publish --access public
 	twine upload dist/*
 
@@ -43,6 +63,13 @@ publish: install
 install_dependencies:
 	conda install -y nodejs yarn --update-all
 	pip install twine
+	npm install rimraf
+
+## upgrade all npm and yarn dependencies
+upgrade: check_dependencies
+	npm update
+	yarn install
+	yarn upgrade
 
 ## cleanup all build and metabuild artefacts
 mrproper: clean uninstall
