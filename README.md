@@ -1,10 +1,11 @@
 # Stellars Jupyterlab Sublime Theme
 
-![GitHub Actions](https://github.com/stellarshenson/jupyterlab_stellars_sublime_theme/actions/workflows/build.yml/badge.svg)
-[![npm version](https://badge.fury.io/js/stellars_jupyterlab_sublime_theme.svg)](https://www.npmjs.com/package/stellars_jupyterlab_sublime_theme)
-[![PyPI version](https://badge.fury.io/py/stellars-jupyterlab-sublime-theme.svg)](https://badge.fury.io/py/stellars-jupyterlab-sublime-theme)
+[![GitHub Actions](https://github.com/stellarshenson/jupyterlab_stellars_sublime_theme/actions/workflows/build.yml/badge.svg)](https://github.com/stellarshenson/jupyterlab_stellars_sublime_theme/actions/workflows/build.yml)
+[![npm version](https://img.shields.io/npm/v/stellars_jupyterlab_sublime_theme.svg)](https://www.npmjs.com/package/stellars_jupyterlab_sublime_theme)
+[![PyPI version](https://img.shields.io/pypi/v/stellars-jupyterlab-sublime-theme.svg)](https://pypi.org/project/stellars-jupyterlab-sublime-theme/)
 [![Total PyPI downloads](https://static.pepy.tech/badge/stellars-jupyterlab-sublime-theme)](https://pepy.tech/project/stellars-jupyterlab-sublime-theme)
-![JL4 Ready](https://img.shields.io/badge/Jupyterlab%204-ready-blue)
+[![JupyterLab 4](https://img.shields.io/badge/JupyterLab-4-orange.svg)](https://jupyterlab.readthedocs.io/en/stable/)
+[![Brought To You By KOLOMOLO](https://img.shields.io/badge/Brought%20To%20You%20By-KOLOMOLO-00ffff?style=flat)](https://kolomolo.com)
 
 
 **Dark Gray-blue theme based on Sublime Text Editor**
