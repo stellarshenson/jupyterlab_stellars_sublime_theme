@@ -27,3 +27,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 8. **Task - Meta Token Saturation**: Increased meta token color saturation for better visibility<br>
     **Result**: Changed --jp-mirror-editor-meta-color from #81A1C1 to #7abcff in style/variables.css to improve contrast with comments based on user feedback. Committed change (686d01f), created RELEASE_1.0.72 tag, and pushed to master. Version bumped to 1.0.75 via Makefile increment.
+
+9. **Task - Scrollbar Styling Fix**: Updated scrollbar and button colors to use darkest theme color<br>
+    **Result**: Changed --jp-scrollbar-background-color in style/variables.css from hardcoded #333840 to var(--jp-layout-color0) for consistency with theme. Added comprehensive webkit scrollbar overrides in style/scrollbars.css with !important flags to override browser defaults - applied dark background to scrollbar track, buttons (arrows), and corners. Fixed issue where Chrome browser was rendering scrollbars with light #d1d1d1 color instead of theme colors.

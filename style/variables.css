@@ -421,7 +421,7 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   /* scrollbar related styles. Supports every browser except Edge. */
 
-  --jp-scrollbar-background-color: #333840;
+  --jp-scrollbar-background-color: var(--jp-layout-color0); /* same as file browser background */
   --jp-scrollbar-thumb-color: 82, 90, 100; /* need to specify thumb color as an RGB triplet 68, 75, 83; */
   --jp-scrollbar-endpad: 3px; /* the minimum gap between the thumb and the ends of a scrollbar */
 

@@ -32,14 +32,20 @@
 
 ::-webkit-scrollbar,
 ::-webkit-scrollbar-corner {
-  background: var(--jp-scrollbar-background-color);
+  background: var(--jp-scrollbar-background-color) !important;
+  width: 16px !important;
+  height: 16px !important;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(var(--jp-scrollbar-thumb-color));
+  background: rgb(var(--jp-scrollbar-thumb-color)) !important;
   border: var(--jp-scrollbar-thumb-margin) solid transparent;
   background-clip: content-box;
   border-radius: var(--jp-scrollbar-thumb-radius);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--jp-scrollbar-background-color) !important;
 }
 
 ::-webkit-scrollbar-track:horizontal {
@@ -54,6 +60,12 @@
     var(--jp-scrollbar-background-color);
   border-bottom: var(--jp-scrollbar-endpad) solid
     var(--jp-scrollbar-background-color);
+}
+
+::-webkit-scrollbar-button {
+  background: var(--jp-scrollbar-background-color) !important;
+  height: 16px !important;
+  width: 16px !important;
 }
 
 /* for code nodes, use a transparent style of scrollbar */
@@ -82,3 +94,4 @@
   border-top: var(--jp-scrollbar-endpad) solid transparent;
   border-bottom: var(--jp-scrollbar-endpad) solid transparent;
 }
+
