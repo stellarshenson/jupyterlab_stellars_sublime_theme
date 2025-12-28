@@ -99,4 +99,9 @@ fix: annoying problem of almost invisible text in stderr */
     overflow: visible !important;
 }
 
+/* override - height of the text in launcher card */
+.jp-LauncherCard-label p {
+    line-height: 1.2em;
+}
+
 /* EOF */
