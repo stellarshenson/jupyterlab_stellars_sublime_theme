@@ -102,6 +102,7 @@ fix: annoying problem of almost invisible text in stderr */
 /* override - height of the text in launcher card */
 .jp-LauncherCard-label p {
     line-height: 1.2em;
+    font-size: calc(var(--jp-ui-font-size1) * 0.9);
 }
 
 /* EOF */
