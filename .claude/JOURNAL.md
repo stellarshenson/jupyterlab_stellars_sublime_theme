@@ -30,3 +30,9 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 9. **Task - Scrollbar Styling Fix**: Updated scrollbar and button colors to use darkest theme color<br>
     **Result**: Changed --jp-scrollbar-background-color in style/variables.css from hardcoded #333840 to var(--jp-layout-color0) for consistency with theme. Added comprehensive webkit scrollbar overrides in style/scrollbars.css with !important flags to override browser defaults - applied dark background to scrollbar track, buttons (arrows), and corners. Fixed issue where Chrome browser was rendering scrollbars with light #d1d1d1 color instead of theme colors.
+
+10. **Task - Table Left Alignment**: Added CSS override to align markdown tables to left<br>
+    **Result**: Added `.jp-RenderedHTMLCommon table { margin-left: inherit; }` to style/custom.css to override JupyterLab's default centered table alignment (margin-left: auto).
+
+11. **Task - Workflow jupyter-releaser Config**: Updated CI workflows per workspace JUPYTERLAB_EXTENSION.md guidelines<br>
+    **Result**: Added `steps_to_skip: "build-changelog"` and `RH_SINCE_LAST_STABLE: 'true'` env to check-release.yml and prep-release.yml. These settings handle direct commit workflow (no PRs) by skipping changelog generation from PRs and using only semantic version tags for release detection.

@@ -105,4 +105,9 @@ fix: annoying problem of almost invisible text in stderr */
     font-size: calc(var(--jp-ui-font-size1) * 0.9);
 }
 
+/* override - align markdown tables to left */
+.jp-RenderedHTMLCommon table {
+    margin-left: inherit;
+}
+
 /* EOF */
